@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JFiddle API</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+
+		body,html{
+width: 100%;
+height: 100%;
+scroll-behavior: smooth;
+transition-duration: .5s;
+font-family: 'Varela Round', sans-serif;
+background-color: black;
+
+}
+
+		#bg{
+			 background: linear-gradient(to right, #ff416c, #ff4b2b);
+			height: 80vh;
+			width: 99%;
+		}
+		#fg{
+			background-color: black;
+			height: 70vh;
+			width: 100%;
+				border-radius: 0px 0px 250px 0px;
+		
+		}
+		.bg-light
+		{
+		transition-duration: .8s;
+		background: transparent !important;
+		}
+.bg-light.scrolled
+{ transition-duration: .8s;
+background: #536DFE !important;
+}
+
+.navbar-nav > li{
+  padding-left:20px;
+  padding-right:20px;
+}
+.fa-user-circle{
+	color: white;
+}
+
+#bgf{
+	background-image: url(assets/hh.gif);
+	border-radius: 0px 0px 250px 0px;
+
+}
+
+#trow{
+	height: 70vh;
+			width: 100%;
+				border-radius: 0px 0px 250px 0px;
+		
+}
+#bgf2{
+	color: white;
+	align-content: center;
+	text-align: left;
+	padding-left: 5%;
+	vertical-align: center;
+	align-self: center;
+}
+.sect{
+	height: 190vh;
+	width: 100%;
+	//padding-left: 5%;
+	padding-top: 4%;
+}
+.cosn{
+	width: 100%;
+	height: 30vh;
+}
+
+
+
+
+
+
+
+.progress-container {
+  width: 70%;
+  height: 8px;
+  background: #ccc;
+  
+}
+
+.progress-bar {
+  height: 8px;
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  width: 0%;
+}
+#colored{
+	color: #B00020;
+	font-weight: bold;
+}
+
+
+
+	</style>
+
+
+
+
+ <script type='text/javascript' src='path.js'></script>    
+
+</head>
+<body>
+<!--Navigation bar starts navbar-light-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-light fixed-top">
+  <a class="navbar-brand" href="#"><img src="assets/logo.png" height="40px" width="140px" style="margin-left: 10%;"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+	</ul>
+
+<div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div> 
+</nav>
+<!--Navigation bar ends-->
+
+
+
+
+
+
+<div class="row">
+	<div class="container-fluid" id="bg">
+		<div class="container-fluid" id="fg">
+
+			<div class="row" id="trow">
+				<div class="col-sm-6" id="bgf2">
+					<h1>Fiddle API</h1><br>
+					<h3>Integrate Java compiler into your webpage in 3 simple steps.</h3>
+				</div>
+				<div class="col-sm-6" id="bgf" >
+				</div>
+			</div>
+
+
+
+		
+		</div >
+	</div>
+</div>
+
+
+<section class="sect">
+	<div class="container">
+		<h2 style="color: #673AB7; font-family: 'Fredoka One', cursive;" >Integrate Java compiler with input/output compatibility into your html page in just 3 simple steps and absolute no coding.</h2><br>
+	<B><h3 style="color: white"><span id="colored">Step1) </span> Copy the Modernizer and Jquery in your head tag.</h3></B><br>
+	<iframe class="cosn"
+  src="https://carbon.now.sh/embed?bg=rgba(171%2C%20184%2C%20195%2C%201)&t=seti&wt=none&l=javascript&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=17px&lh=133%25&si=false&es=2x&wm=false&code=%253Cscript%2520src%253D%2522https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Fmodernizr%252F2.8.3%252Fmodernizr.min.js%2522%253E%253C%252Fscript%253E%250A%253Cscript%2520src%253D%2522https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fjquery%252F3.4.1%252Fjquery.min.js%2522%253E%253C%252Fscript%253E"
+  style="transform:scale(0.7);  border:0; overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+
+
+
+<B><h3 style="color: white"><span id="colored">Step2) </span>Copy the Below Form into your Body tag.</h3></B><br>
+<iframe class="cosn"
+  src="https://carbon.now.sh/embed?bg=rgba(171%2C%20184%2C%20195%2C%201)&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=17px&lh=133%25&si=false&es=2x&wm=false&code=%253Cform%2520id%253D%2522form%2522%253E%250A%2509%253Ctextarea%2520name%253D%2522code%2522%2520rows%253D%252210%2522%2520cols%253D%252230%2522%2520id%253D%2522code%2522%253Eclass%2520Main%257B%250A%2509public%2520static%2520void%2520main(String%2520%255B%255D%2520abc)%257B%250A%2509System.out.println(%2522hello%2520java%2522)%253B%2520%257D%2520%257D%250A%2509%253C%252Ftextarea%253E%250A%2509%253Ctextarea%2520name%253D%2522input%2522%2520rows%253D%252210%2522%2520cols%253D%252230%2522%2520id%253D%2522input%2522%253E%253C%252Ftextarea%253E%250A%2509%253Ctextarea%2520name%253D%2522output%2522%2520rows%253D%252210%2522%2520cols%253D%252230%2522%2520id%253D%2522output%2522%253E%253C%252Ftextarea%253E%250A%2509%253Cinput%2520type%253D%2522button%2522%2520value%253D%2522submit%2522%2520id%253D%2522runcode%2522%253E%250A%253C%252Fform%253E"
+  style="transform:scale(0.7);  height:473px; border:0; overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+
+
+
+
+
+
+<B><h3 style="color: white"><span id="colored">Step3) </span> Copy the Javascript in your html page.</h3></B><br>
+<iframe class="cosn" id="cust"
+  src="https://carbon.now.sh/embed?bg=rgba(171%2C%20184%2C%20195%2C%201)&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=17px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253Cscript%2520type%253D%2522text%252Fjavascript%2522%253E%250A%250A%2520%2520%2524(document).ready(function()%257B%250A%250A%2520%2520%2520%2520%2520%2524(%2522%2523runcode%2522).click(function()%257B%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2524(%2522%2523output%2522).html(%2522Loading%2520......%2522)%253B%250A%2520%2520%2520%257D)%253B%250A%250A%2520%2520%257D)%253B%250A%252F%252Fwait%2520for%2520page%2520load%2520to%2520initialize%2520script%250A%2524(document).ready(function()%257B%250A%2520%2520%2520%2520%252F%252Flisten%2520for%2520form%2520submission%250A%2520%2520%2520%2520%2524('%2523runcode').on('click'%252C%2520function(e)%257B%250A%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520e.preventDefault()%253B%250A%250A%2520%2520%2520%2520%2520%2520%252F%252F%2520AJAX%250A%2520%2520%2520%2520%2520%2520%2524.ajax(%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520type%253A%2520%2522POST%2522%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520cache%253A%2520false%252C%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520url%253A%2520%2522https%253A%252F%252F54a13088.ngrok.io%252FAPI%252FAPI_compilers%252Fjava.php%2522%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520datatype%253A%2520%2522html%2522%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520data%253A%2520%2524('form').serialize()%252C%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520success%253A%2520function(result)%2520%257B%2520%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2524(%2522%2523output%2522).html(result)%253B%250A%2520%2520%2520%2520%257D%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%257D)%253B%250A%2520%2520%2520%2520%257D)%253B%250A%2520%2520%257D)%253B%250A%253C%252Fscript%253E"
+  style="transform:scale(0.7); height:473px; border:0; overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+	</div>
+</section>
+
+
+
+
+
+
+
+</body>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+
+<script>
+ $(window).scroll(function(){
+ $('nav').toggleClass('scrolled', $(this).scrollTop() > 80);
+ });
+</script>
+
+
+ <script type="text/javascript">
+      window.onload = function() {
+var temp=simple().address;
+
+
+
+
+var fidrabkpath="https://carbon.now.sh/embed?bg=rgba(171%2C%20184%2C%20195%2C%201)&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=17px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253Cscript%2520type%253D%2522text%252Fjavascript%2522%253E%250A%250A%2520%2520%2524(document).ready(function()%257B%250A%250A%2520%2520%2520%2520%2520%2524(%2522%2523runcode%2522).click(function()%257B%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2524(%2522%2523output%2522).html(%2522Loading%2520......%2522)%253B%250A%2520%2520%2520%257D)%253B%250A%250A%2520%2520%257D)%253B%250A%252F%252Fwait%2520for%2520page%2520load%2520to%2520initialize%2520script%250A%2524(document).ready(function()%257B%250A%2520%2520%2520%2520%252F%252Flisten%2520for%2520form%2520submission%250A%2520%2520%2520%2520%2524('%2523runcode').on('click'%252C%2520function(e)%257B%250A%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520e.preventDefault()%253B%250A%250A%2520%2520%2520%2520%2520%2520%252F%252F%2520AJAX%250A%2520%2520%2520%2520%2520%2520%2524.ajax(%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520type%253A%2520%2522POST%2522%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520cache%253A%2520false%252C%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520url%253A%2520%2522https%253A%252F%252F"+temp+".ngrok.io%252FAPI%252FAPI_compilers%252Fjava.php%2522%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520datatype%253A%2520%2522html%2522%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520data%253A%2520%2524('form').serialize()%252C%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520success%253A%2520function(result)%2520%257B%2520%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2524(%2522%2523output%2522).html(result)%253B%250A%2520%2520%2520%2520%257D%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%257D)%253B%250A%2520%2520%2520%2520%257D)%253B%250A%2520%2520%257D)%253B%250A%253C%252Fscript%253E";
+
+$("#cust").attr("src", fidrabkpath);
+
+
+
+
+
+};
+    </script>
+
+
+
+
+
+    <script>
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
+
+</html>

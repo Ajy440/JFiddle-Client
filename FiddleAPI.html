@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	
+
+	<link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.js" type="text/javascript"></script>
+<link rel="icon" href="assets/favicon.png" type="image/x-icon"/>
+<link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon"/>
+
+	<style type="text/css">
+
+html, body {
+margin:0;
+padding:0;
+scroll-behavior: smooth;
+transition-duration: .5s;
+background-color: rgb(248,249,250);
+overflow: auto;
+
+}
+		
+		#ll{
+		font-family: 'proximanovasoftw03-boldRg';	
+		font-size: 200px;	}
+#ll1{
+	font-family: 'proxima_nova_softregular';
+	font-weight: normal;
+}
+
+#codebox{
+	height: 35vh;
+	width: 95%;
+	background-color: black;
+	border-radius: 15px;
+	color: white;
+	font-family: 'proxima_nova_softregular';
+	font-weight: normal;
+	padding-left: 1%;
+	padding-top: 0.5%;
+	padding-right: 1%;
+	padding-bottom: 1%;
+}
+#copy{
+	width: 100%;
+	//background-color: red;
+	text-align: right;
+	height: 5vh;
+	 
+}
+.code{
+	//background-color: green;
+	height: 29vh;
+	width: 100%;
+	overflow-x: auto;
+	overflow-y: auto;
+
+}
+#pre1{
+	font-size: 110%;
+}
+#pre2{
+	font-size: 110%;
+}
+#cf1{
+	height: 8vh;
+	width: 100%;
+	font-family: 'proximanovasoftw03-boldRg';
+	padding-left: 2%;
+	padding-right: 2%;
+	//padding-top: 0.5%;
+}
+#cf2
+{
+	background-color: rgb(73,80,87);
+	width: 100%;
+height: 16vh;
+font-family: 'proximanovasoftw03-boldRg';
+	padding-left: 2%;
+	//padding-right: 2%;
+	padding-top: 0.2%;
+	color: white;
+
+}
+#cf3
+{
+	background-color: rgb(52,58,64);
+	width: 100%;
+	margin-top: 0px;
+	height: 5vh;
+	font-family: 'proximanovasoftw03-boldRg';
+	padding-left: 2%;
+	//padding-right: 2%;
+	padding-top: 0.5%;
+	color: white;
+	font-size: 120%;
+}
+
+#cf4{
+	background-image: url(assets/temp.jpg);
+	width: 96%;
+	height: 21vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-left: 5%;
+
+
+}
+#main1{height: 60vh;
+//background-color: red;
+width: 100%;
+margin-top: 2%;
+}
+.left{
+	height: 60vh;
+	width: 50%;
+	//background-color: yellow;
+	float: left;
+	
+}
+.right{
+	height: 60vh;
+	width: 50%;
+	//background-color: green;
+	float: right;
+
+}
+#written{
+	//background-color: red;
+	height: 60vh;
+	width: 94%;
+float: right;
+text-align: left;
+align-items: left;
+}
+#one{
+	font-size: 290%;
+	float: left;
+}
+#headr{font-family: 'proximanovasoftw03-boldRg';
+float:left;
+margin-left: 5px;
+
+}
+#datap{
+font-family: 'proxima_nova_softregular';
+	font-weight: normal;
+	margin-left: 4%;
+	font-size: 125%;
+	padding-right: 15%;
+	line-height: 135%;
+
+}
+
+#footer{
+	color: white;
+	background-color: black;
+	height: 5vh;
+	width: 100%;
+	font-family: 'proximanovasoftw03-boldRg';
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	padding-top: 0.3%;
+}
+
+
+
+	</style>
+	 <script type='text/javascript' src='path.js'></script> 
+</head>
+<body>
+
+
+
+<div class="container-fluid" id="cf1">
+<h2 ><a href="http://JFiddle.epizy.com" style="text-decoration: none">< > JFiddle</a> <a href="http://JFiddle.epizy.com/FiddleModule.html" style="text-decoration: none; margin-left: 3%;color: black;">Java Modules</a> </h2>
+
+	</div>
+
+<div class="container-fluid" id="cf2">
+		<h1>JFiddle API</h1>
+	</div>
+<div class="container-fluid" id="cf3" style="width: 100%;">
+Add Java API to your website in 3 Simple Steps.
+
+	</div>
+<div class="container-fluid" id="cf4">
+
+	</div>
+
+
+
+
+
+<div id="main1">
+<div class="left">
+	<div id="written">
+	
+<h2 id="headr" align="left">1.   Copy the Modernizer and Jquery in your head tag.</h2><br>
+<br>
+<br>
+<p id="datap">Copy the Modernizer and Jquery Css inside your <span style="color: blue;">&lt;head&gt;</span>  tag. You can also import these scripts from external sources.</p>
+
+	</div>
+	<br>
+
+
+
+</div>
+<div class="right">
+	
+<div id="codebox">
+			
+	<div id="copy">
+
+<div id="left" style="float: left; width: 50%">
+		<h1 style="font-size: 115%; text-align: right; color: #e3e3e3;">Scripts</h1></div><div id="right" onclick="copyToClipboard('#code1')" style="float: right; margin-top: 10px;  cursor: pointer;"><span class="material-icons" style="" >
+file_copy </span> Copy</div></div>
+
+<div class="code" id="code1">
+<pre id="pre1">
+<span style="color: blue">&lt;</span><span style="color: red">script</span><span style="color: orange"> src</span>="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"<span style="color: blue">&gt;</span><span style="color: blue">&lt;</span><span style="color: red">/script</span><span style="color: blue">&gt;</span>
+
+<span style="color: blue">&lt;</span><span style="color: red">script</span><span style="color: orange"> src</span>="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"<span style="color: blue">&gt;</span><span style="color: blue">&lt;</span><span style="color: red">/script</span><span style="color: blue">&gt;</span>
+
+
+</pre>
+
+</div>
+
+	</div>
+
+</div>
+</div>
+<hr>
+
+
+<div id="main1">
+<div class="left">
+	<div id="written">
+	
+<h2 id="headr" align="left">2.   Copy the Form inside your Body tag.</h2><br>
+<br>
+<br>
+<p id="datap">Copy the Html form inside your <span style="color: blue;">&lt;body&gt;</span>  tag. You can also use data from existing forms by modifying the code.</p>
+
+	</div>
+	<br>
+
+
+
+</div>
+<div class="right">
+	
+<div id="codebox">
+			
+	<div id="copy">
+
+<div id="left" style="float: left; width: 50%">
+		<h1 style="font-size: 115%; text-align: right; color: #e3e3e3;">Forms</h1></div><div id="right" onclick="copyToClipboard('#code2')" style="float: right; margin-top: 10px;  cursor: pointer;"><span class="material-icons" style="" >
+file_copy </span> Copy</div></div>
+
+<div class="code" id="code2">
+<pre id="pre1">
+<span style="color: blue">&lt;</span><span style="color: red">form</span> id="form"<span style="color: blue">&gt;</span>
+	<span style="color: blue">&lt;</span><span style="color: orange">textarea</span> name="code" rows="10" cols="30" id="code"<span style="color: blue">&gt</span>class Main{
+	public static void main(String [] abc){
+	System.out.println("hello java"); } }
+	<span style="color: blue">&lt;</span><span style="color: orange">/textarea</span><span style="color: blue">&gt;</span>
+	<span style="color: blue">&lt;</span><span style="color: orange">textarea</span> name="<span style="color: orange">input</span>" rows="10" cols="30" id="<span style="color: orange">input</span>"<span style="color: blue">></span><span style="color: blue">&lt;</span><span style="color: orange">/textarea</span><span style="color: blue">&gt;</span>
+	<span style="color: blue">&lt;</span><span style="color: orange">textarea</span> name="<span style="color: orange">output</span>" rows="10" cols="30" id="<span style="color: orange">output</span>"<span style="color: blue">></span><span style="color: blue">&lt;</span><span style="color: orange">/textarea</span><span style="color: blue">&gt;</span>
+	<span style="color: blue">&lt;</span><span style="color: orange">input</span> type="button" value="submit" id="runcode"<span style="color: blue">&gt;</span>
+<span style="color: blue">&lt;</span><span style="color: red">/form</span><span style="color: blue">&gt;</span>
+
+
+</pre>
+
+</div>
+
+	</div>
+
+</div>
+</div>
+<hr>
+
+
+	
+<div id="main1">
+<div class="left">
+	<div id="written">
+	
+<h2 id="headr" align="left">3.    Copy the Javascript in your html page..</h2><br>
+<br>
+<br>
+<p id="datap">Copy the JavaScript form inside your <span style="color: blue;">&lt;body&gt;</span>  tag just after the form you pasted. You can also fix the location of js as per your preferenece.</p>
+
+	</div>
+	<br>
+
+
+
+</div>
+<div class="right">
+	
+<div id="codebox">
+			
+	<div id="copy">
+
+<div id="left" style="float: left; width: 50%">
+		<h1 style="font-size: 115%; text-align: right; color: #e3e3e3;">Javascript</h1></div><div id="right" onclick="copyToClipboard('#code3')" style="float: right; margin-top: 10px;  cursor: pointer;"><span class="material-icons" style="" >
+file_copy </span> Copy</div></div>
+
+<div class="code" id="code3">
+<pre id="pre2">
+<span style="color: blue;">&lt;</span><span style="color: red;">script</span> type="text/javascript"<span style="color: blue;">&gt;</span>
+
+  $(<span style="color: orange;">document</span>).ready(function()<span style="color: yellow;">{</span>
+
+     $("<span style="color: orange;">#runcode</span>").click(function()<span style="color: yellow;">{</span>
+
+           $("<span style="color: orange;">#output</span>").html("Loading ......");
+   <span style="color: yellow;">}</span>);
+
+  <span style="color: yellow;">}</span>);
+//wait for page load to initialize script
+$(<span style="color: orange;">document</span>).ready(function()<span style="color: yellow;">{</span>
+    //listen for form submission
+    $('<span style="color: orange;">#runcode</span>').on('click', function(e)<span style="color: yellow;">{</span>
+     
+      e.preventDefault();
+
+      // AJAX
+      $.ajax(<span style="color: yellow;">{</span>
+            <span style="color: orange;">type</span>: "POST",
+            
+           <span style="color: orange;"> cache</span>: false, 
+            <span style="color: orange;">url</span>: "https://565656.ngrok.io/API/API_compilers/java.php",
+            <span style="color: orange;">datatype</span>: "html",
+            <span style="color: orange;">data</span>: $('<span style="color: orange;">form</span>').serialize(), 
+            <span style="color: orange;">success</span>: function(result) { 
+
+            $("<span style="color: orange;">#output</span>").html(result);
+    <span style="color: yellow;">}</span>
+              
+        <span style="color: yellow;">}</span>);
+    <span style="color: yellow;">}</span>);
+  <span style="color: yellow;">}</span>);
+<span style="color: blue;">&lt;</span><span style="color: red;">/script</span><span style="color: blue;">&gt;</span>
+
+</pre>
+
+</div>
+
+	</div>
+
+</div>
+</div>
+	
+<div id="footer">
+	2020 JFiddle. All rights Reserved.
+</div>
+
+
+
+	<script type="text/javascript">
+		
+      window.onload = function() {
+var temp=simple().address;
+var in1=document.getElementById("pre2").innerHTML;
+var in2=in1.replace("565656",temp);
+document.getElementById("pre2").innerHTML=in2;
+
+
+}
+
+	</script>
+
+
+
+	<script type="text/javascript">
+		function copyToClipboard(element) {
+  var $temp = $("<textarea>");
+  $("body").append($temp);
+  $temp.val($(element).text()).select();
+  document.execCommand("copy");
+  $temp.remove();
+
+
+new Noty({
+  type: 'success',
+  theme: 'nest',
+    text: 'Copied Successfully..',
+    dismissQueue: true,
+      timeout: 2000,
+    
+}).show();
+
+
+}
+
+	</script>
+
+
+
+
+</body>
+</html>
